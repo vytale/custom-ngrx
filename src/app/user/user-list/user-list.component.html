@@ -1,0 +1,6 @@
+<h1>User List</h1>
+<ol>
+    <li *ngFor="let user of users$ | async">
+        {{user.username}}
+    </li>
+</ol>

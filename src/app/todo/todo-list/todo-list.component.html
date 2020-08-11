@@ -1,0 +1,10 @@
+<h1>Todo List</h1>
+
+<ul>
+    <li *ngFor="let todo of todos$ | async">
+        <a [routerLink]="['/properties', todo.id]">#{{todo.id}} : {{todo.title}} | {{todo.completed?"Completed":"Not Done"}}</a>
+        <button (click)="deleteTodo(todo)">Delete</button>
+        <button (click)="updateTodo(todo)">Toggle Completion</button>
+    </li>
+</ul>
+<button (click)="createTodo()">Create Todo</button>
