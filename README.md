@@ -1,6 +1,5 @@
-# CustomNgrx
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.3.
+This project is a Proof of concept integration with NGRX (practice) made to later implement into a Framework built around Angular. 
+This is made to be auto-generatable.
 
 ## Development server
 
